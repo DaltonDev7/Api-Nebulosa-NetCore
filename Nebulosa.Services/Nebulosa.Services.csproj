@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="3.1.15" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="3.1.15" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Nebulosa.Bussines\Nebulosa.Bussines.csproj" />
+    <ProjectReference Include="..\Nebulosa.Dal\Nebulosa.Dal.csproj" />
+    <ProjectReference Include="..\Nebulosa.Entities\Nebulosa.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
